@@ -1,38 +1,36 @@
-.App {
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ContactsTable-img
+{
+  height : 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.ContactsTable
+{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 70vw;
 }
 
-.App-link {
-  color: #61dafb;
+
+thead tr{
+  border: 1px solid blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ContactsTable-buttonsList
+{
+  text-align: center;
+}
+
+.ContactsTable-buttons
+{
+  width: 200px;
+  height: 50px;
+  margin : 10px;
 }
